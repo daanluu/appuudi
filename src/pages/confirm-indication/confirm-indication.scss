@@ -1,0 +1,31 @@
+page-confirm-indication {
+  .back-button,
+  .toolbar-title {
+    color: #fff !important;
+  }
+
+  ion-title img {
+    width: 80px;
+  }
+}
+
+.containerConfirmIndication {
+  background: url('.././assets/images/background-obfuscated.png');
+	background-position: center;
+	background-size: 400px;
+}
+
+.uudi {
+  color:#17a5d8;
+  font-weight: bold;
+}
+
+.containerConfirmIndication button {
+  text-transform: none;
+}
+
+.containerConfirmIndication ion-card-header {
+  text-align: center;
+  color:#737373;
+  font-weight: 496;
+}

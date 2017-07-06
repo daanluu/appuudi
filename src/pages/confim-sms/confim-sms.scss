@@ -1,0 +1,27 @@
+page-confim-sms {
+  .bar-buttons,
+  button,
+  .toolbar-title {
+    color: #fff !important;
+  }
+
+  ion-title img {
+    width: 80px;
+  }
+}
+
+.containerRegister {
+  background: url('.././assets/images/background-obfuscated.png');
+	background-position: center;
+	background-size: 400px;
+}
+
+.containerRegister button {
+  text-transform: none;
+}
+
+.containerRegister ion-card-header {
+  text-align: center;
+  color:#737373;
+  font-weight: 496;
+}
