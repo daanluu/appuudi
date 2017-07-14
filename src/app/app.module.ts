@@ -10,6 +10,11 @@ import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { ConfimSmsPage } from '../pages/confim-sms/confim-sms';
 import { ConfirmIndicationPage } from '../pages/confirm-indication/confirm-indication';
+import { MenuPage } from '../pages/menu/menu';
+import { OrbitPage } from '../pages/orbit/orbit';
+import { InviteFriendsPage } from '../pages/invite-friends/invite-friends';
+import { TabsPage } from '../pages/tabs/tabs';
+import { TabHomePage } from '../pages/tab-home/tab-home';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { ConfirmIndicationPage } from '../pages/confirm-indication/confirm-indic
     LoginPage,
     RegisterPage,
     ConfimSmsPage,
-    ConfirmIndicationPage
+    ConfirmIndicationPage,
+    MenuPage,
+    OrbitPage,
+    InviteFriendsPage,
+    TabsPage,
+    TabHomePage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +43,12 @@ import { ConfirmIndicationPage } from '../pages/confirm-indication/confirm-indic
     LoginPage,
     RegisterPage,
     ConfimSmsPage,
-    ConfirmIndicationPage
+    ConfirmIndicationPage,
+    MenuPage,
+    OrbitPage,
+    InviteFriendsPage,
+    TabsPage,
+    TabHomePage
   ],
   providers: [
     StatusBar,
