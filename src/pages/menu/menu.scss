@@ -1,14 +1,33 @@
 page-menu {
-  .bar-button-default-md {
+  .bar-button-default-md, .bar-button-default-ios {
     color:#fff;
+  }
+
+  .custom_toolbar {
+    height: 160px;
+  }
+
+  .custom_toolbar img {
+    height: 18vh;
+    width: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+
+  .name_user {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
   }
 
   .container_side_menu {
     background: #1496c5;
   }
 
-  .container_side_menu .item-md{
-    background: #1496c5;
+  .container_side_menu .btn_side_menu{
     padding:0px 0px 0px 0px;
     margin-left: 10px;
     color:#fff;
