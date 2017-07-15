@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ChoosePaymentPage } from '../choose-payment/choose-payment';
 
 /**
  * Generated class for the TabHomePage page.
@@ -13,6 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'tab-home.html',
 })
 export class TabHomePage {
+  choosePaymentPage = ChoosePaymentPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

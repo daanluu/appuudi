@@ -1,23 +1,39 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
+    <ion-navbar color="grey">
+        <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>List</ion-title>
-  </ion-navbar>
+        <ion-title>
+            <img src="assets/images/logo_header.png" />
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-left></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-right>
-        {{item.note}}
-      </div>
-    </button>
-  </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+    <ion-row>
+        <ion-col col-12 class="label_shere">
+            <ion-icon name="ios-person-add"></ion-icon>
+            Convidar Amigos
+        </ion-col>
+
+        <ion-col col-12 class="label_win">
+            É conectar e ganhar ;)
+        </ion-col>
+    </ion-row>
+    <ion-list class="list_share">
+        <button ion-item>
+          <ion-icon name="logo-whatsapp"></ion-icon>
+          Whatsapp
+        </button>
+
+        <button ion-item>
+          <ion-icon name="logo-facebook"></ion-icon>
+          Facebook
+        </button>
+
+        <button ion-item>
+          <ion-icon name="logo-googleplus"></ion-icon>
+          Google
+        </button>
+    </ion-list>
 </ion-content>

@@ -2,19 +2,23 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the InviteFriendsPage page.
+ * Generated class for the ChoosePaymentPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @IonicPage()
 @Component({
-  selector: 'page-invite-friends',
-  templateUrl: 'invite-friends.html',
+  selector: 'page-choose-payment',
+  templateUrl: 'choose-payment.html',
 })
-export class InviteFriendsPage {
+export class ChoosePaymentPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-
   }
+
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad ChoosePaymentPage');
+  }
+
 }

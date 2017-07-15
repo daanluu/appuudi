@@ -1,13 +1,14 @@
 <ion-menu [content]="content">
-    <ion-header>
-        <ion-toolbar>
-            <ion-title></ion-title>
-        </ion-toolbar>
+    <ion-header class="custom_toolbar">
+        <img src="assets/images/perfil.jpg" />
+        <ion-label class="name_user">
+            Denisson Felipe
+        </ion-label>
     </ion-header>
 
     <ion-content class="container_side_menu">
         <ion-list>
-            <button menuClose ion-item *ngFor="let page of pages" (click)="openPage(page)">
+            <button menuClose color="blue" class="btn_side_menu" ion-item *ngFor="let page of pages" (click)="openPage(page)">
               <ion-icon name="{{ page.icon }}"></ion-icon>
               {{page.title}}
             </button>

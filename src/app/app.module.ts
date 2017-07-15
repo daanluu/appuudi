@@ -15,6 +15,8 @@ import { OrbitPage } from '../pages/orbit/orbit';
 import { InviteFriendsPage } from '../pages/invite-friends/invite-friends';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TabHomePage } from '../pages/tab-home/tab-home';
+import { DemandSuccessPage } from '../pages/demand-success/demand-success';
+import { ChoosePaymentPage } from '../pages/choose-payment/choose-payment';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { TabHomePage } from '../pages/tab-home/tab-home';
     OrbitPage,
     InviteFriendsPage,
     TabsPage,
-    TabHomePage
+    TabHomePage,
+    DemandSuccessPage,
+    ChoosePaymentPage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,9 @@ import { TabHomePage } from '../pages/tab-home/tab-home';
     OrbitPage,
     InviteFriendsPage,
     TabsPage,
-    TabHomePage
+    TabHomePage,
+    DemandSuccessPage,
+    ChoosePaymentPage
   ],
   providers: [
     StatusBar,
